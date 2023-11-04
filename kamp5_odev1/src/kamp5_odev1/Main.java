@@ -14,9 +14,9 @@ public class Main {
 		EticaretService eticaretService = new EticaretManager(new KocholdingEticaretDao(),new MailManager(),new EpostaDogManagerAdaptor());
 		
 		EticaretInfo eticaretInfo = new EticaretInfo();
-		eticaretInfo.setFirstName("gökhan");
-		eticaretInfo.setLastName("koç");
-		eticaretInfo.setePosta("gkoc@gmail.com");
+		eticaretInfo.setFirstName("zehra");
+		eticaretInfo.setLastName("er");
+		eticaretInfo.setePosta("zery@gmail.com");
 		eticaretInfo.setPassword("fggsdfsdfsd");
 		
 		EticaretInfo eticaretInfo2 = new EticaretInfo();
